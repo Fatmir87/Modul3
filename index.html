@@ -1,0 +1,56 @@
+<html>
+  <style>
+    .content {
+      max-width: 500px;
+      margin: auto;
+    }
+    p {
+      color: black;
+    }
+    h1 {
+      color: orange;
+    }
+    button {
+      color: red;
+    }
+  </style>
+  <body>
+    <div class="content">
+      <h1>Modul 3</h1>
+      <p>Click the button to get your coordinates.</p>
+
+      <button id="coor_btn">Click</button>
+
+      <p id="myLocation"></p>
+
+      <br />
+
+      <p>Press the button to view your browser.</p>
+
+      <button id="browser_btn">Click</button>
+
+      <p id="myLocation2"></p>
+      <br />
+
+      <p>Copy a random text, and then press the button to view that text.</p>
+      <button id="copy_btn">Click</button>
+      <p id="copy_txt"></p>
+
+      <br />
+      <p>
+        Enter a number in the input field, to view if your answer is correct ?
+      </p>
+      <p>2 * 10 = ?</p>
+      <input type="number" id="numInput" placeholder="Enter a number" />
+      <br />
+      <br />
+      <button id="sub_btn">Submit with Await-Async</button>
+      <br />
+      <br />
+      <button id="sub_then_btn">Submit with Then.catch</button>
+      <p id="result"></p>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
